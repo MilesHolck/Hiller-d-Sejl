@@ -26,3 +26,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+Console.WriteLine("Hello, Hillerød Sejlklub!");
