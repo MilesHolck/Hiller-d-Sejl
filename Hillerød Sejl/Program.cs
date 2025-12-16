@@ -1,5 +1,5 @@
-using HillerødSejlKlub;
-using HillerødSejlKlub.Repositories;
+//using HillerødSejlKlub;
+//using HillerødSejlKlub.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,3 +26,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+Console.WriteLine("Hello, Hillerød Sejlklub!");

@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.carousel-wrapper 
+{
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+.carousel-inner img 
+{
+    height: 350px; 
+    object-fit: cover; 
+}
