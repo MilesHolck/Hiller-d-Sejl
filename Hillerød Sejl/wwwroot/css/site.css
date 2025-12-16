@@ -33,3 +33,31 @@ body {
     object-fit: cover; 
 }
 
+/* navbar */
+
+.navbar {
+    font-family: Arial;
+    background: transparent;
+}
+.navbar-nav .nav-link {
+    position: relative;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #1f2933;
+    padding: 0.5rem 0.75rem;
+}
+    .navbar-nav .nav-link::after {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: #87CEEB; 
+        transition: width 0.25s ease;
+    }
+    .navbar-nav .nav-link:hover::after {
+        width: 50%;
+        position: center;
+    }
