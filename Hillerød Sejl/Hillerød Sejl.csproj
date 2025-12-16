@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\TIlmedling.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="HillerødSejlKlub">
       <HintPath>..\..\HillerødSejlKlub\HillerødSejlKlub\bin\Debug\net8.0\HillerødSejlKlub.dll</HintPath>
     </Reference>
