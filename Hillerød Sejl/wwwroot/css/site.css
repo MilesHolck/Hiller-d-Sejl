@@ -68,6 +68,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease-in-out;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -75,9 +76,13 @@ body {
 }
 
 .card2 {
+    background-color: rgba(255, 248, 230, 0.9);
     width: 18rem;
     height: 24rem;
     border: 2px solid #bfa26a;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .card2:hover {
