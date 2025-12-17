@@ -73,3 +73,45 @@ body {
 .card:hover {
     transform: scale(1.03);
 }
+
+.card2 {
+    width: 18rem;
+    height: 24rem;
+    border: 2px solid #bfa26a;
+}
+
+.card2:hover {
+    transform: scale(1.03);
+}
+
+    .card2 .card-img-top {
+        height: 160px;
+        object-fit: cover;
+    }
+
+.card3 {    
+    border: 2px solid #bfa26a;
+}
+
+.ListGroup {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+li1 {
+    font-size: 1.5rem;
+}
+
+.signup-form {
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+    .signup-form h3 {
+        color: #003366;
+    }
+
+    .signup-form input:focus {
+        border-color: #bfa26a;
+        box-shadow: 0 0 0 0.15rem rgba(191, 162, 106, 0.4);
+    }
