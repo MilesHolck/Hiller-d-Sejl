@@ -6,41 +6,63 @@
 
 <h1>Tilmelding</h1>
 
-<p>Her kan du se en oversigt over vores priser: 
-    <ul>Årlig kontingent pr. 1. januar 2023</ul>
-    <ul>Junior (op til 18 år)	   750,00</ul>
-    <ul>Junior medlem inkl. pladsleje	   950,00</ul>
-    <ul>Senior medlem	   1100,00</ul>
-    <ul>Senior medlem inkl. pladsleje	1500,00</ul>
-    <ul>Familie (hele husstanden)	   1500,00</ul>
-    <ul>Bådplads	400,00</ul>
-    <ul>Passiv medlem	   250,00</ul>
-    <ul>Indmeldelse	150,00</ul>
+<p>Her kan du se en oversigt over vores priser:     
 </p>
 
-<form action="action_page.php" style="border:1px solid #ccc">
-    <div class="container">
-        <h3>Her kan du udfylde tilmeldingen</h3>
-        <hr>
+<Div>
+    <ul class="list-group">
+        <li1 class="list-group-item">Årlig kontingent pr. 1. januar 2023</li1>
+        <li class="list-group-item">Indmeldelse	150,00</li>
+        <li class="list-group-item">Passiv medlem	   250,00</li>
+        <li class="list-group-item">Bådplads	400,00</li>             
+        <li class="list-group-item">Junior (op til 18 år)	   750,00<br>
+            Junior medlem inkl. pladsleje 950,00</li>        
+        <li class="list-group-item">Senior medlem	   1100,00<br>
+            Senior medlem inkl. pladsleje	1500,00</li>           
+        <li class="list-group-item">Familie (hele husstanden)	   1500,00</li>        
+    </ul>
+</Div>
 
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+<div>
+    <br> 
+</div>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+   <form class="signup-form card3 shadow-lg p-4 mx-auto"
+      action="action_page.php"
+      style="max-width: 1000px;">
 
-        <label for="psw-repeat"><b>Gentag Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <h3 class="text-center mb-3">Her kan du udfylde tilmeldingen</h3>
+    <hr>
 
-        <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-        </label>
-
-        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-        <div class="clearfix">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Sign Up</button>
-        </div>
+    <div class="mb-3">
+        <label class="form-label"><b>Email</b></label>
+        <input type="email" class="form-control" placeholder="Enter Email" required>
     </div>
+
+    <div class="mb-3">
+        <label class="form-label"><b>Password</b></label>
+        <input type="password" class="form-control" placeholder="Enter Password" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"><b>Gentag Password</b></label>
+        <input type="password" class="form-control" placeholder="Repeat Password" required>
+    </div>
+
+    <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" checked>
+        <label class="form-check-label">Remember me</label>
+    </div>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="d-flex justify-content-center gap-3 mt-4">
+        <button type="submit" class="btn btn-primary px-4">
+            Sign Up
+        </button>
+        <button type="button" class="btn btn-secondary px-4">
+            Cancel
+        </button>
+    </div>
+
 </form>
